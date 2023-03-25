@@ -38,6 +38,8 @@ public final class KEAM extends JavaPlugin {
                 Message pickedMessage = config.Messages.get(random);
                 for(Player p : Bukkit.getOnlinePlayers()){
                     p.spigot().sendMessage(pickedMessage.getTextComponent());
+                    if(pickedMessage.usesTitle())
+                        p.sendTitle(pickedMessage.getTitle(), "", 10,50, 10);
                 }
             }
         }.runTaskTimer(PLUGIN, 200, config.interval);

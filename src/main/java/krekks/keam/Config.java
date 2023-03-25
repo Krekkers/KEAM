@@ -21,7 +21,11 @@ public class Config {
             LinkedHashMap<?, ?> messageMap = (LinkedHashMap<?, ?>) rawMessage;
             String message = (String) messageMap.get("message");
             String url = (String) messageMap.get("url");
-            Messages.add(new Message(message, url));
+            String title = "";
+            if(messageMap.get("title") != null){
+                title = (String) messageMap.get("title");
+            }
+            Messages.add(new Message(message, url, title));
         }
     }
 

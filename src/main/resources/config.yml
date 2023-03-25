@@ -4,9 +4,9 @@
 Messages:
   - message: "&cA string &9containing &aa &emessage"
     url: "https://Krekkers.com"
+    title: "A title that WIll be displayed" # optional
   - message: "&aA string &ccontaining a &emessage 2"
     url: "https://Krekkers.com/helloworld"
-
 
 
 interval: 5 #minutes
