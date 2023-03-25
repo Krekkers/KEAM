@@ -1,0 +1,7 @@
+name: KEAM
+version: '${project.version}'
+main: krekks.keam.KEAM
+api-version: 1.19
+prefix: KEAM
+authors: [ Krekks ]
+description: A automatic messages plugin

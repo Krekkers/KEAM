@@ -1,0 +1,13 @@
+
+
+
+Messages:
+  - message: "&cA string &9containing &aa &emessage"
+    url: "https://Krekkers.com"
+  - message: "&aA string &ccontaining a &emessage 2"
+    url: "https://Krekkers.com/helloworld"
+titles:
+  -
+
+
+interval: 5 #minutes
